@@ -1,0 +1,16 @@
+{
+  "name": "lesson-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start http://localhost:5555 && node server/server.js",
+    "stop": "taskkill -F -IM node.exe"
+  },
+  "author": "Korobeinikov E.A.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
